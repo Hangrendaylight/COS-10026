@@ -1,0 +1,84 @@
+aside:hover {
+    display:block;
+}
+nav ul{
+    list-style:none;
+}
+.menu{
+    display:inline-block;
+}
+aside{
+    border:4px inset purple;
+    border-radius: 14px;
+    padding:1em;
+    margin:1em;
+    background:url("images/fade.jpg") repeat-x top left;
+    width:30%;
+    float:right;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+header{
+    border:1px solid darkgray; 
+    margin:0.5em;
+    padding:0.5em;
+    background-color:lightgray;
+    text-align:center;
+}
+footer{
+    border-top:4px double;
+    border-color: aqua;
+    clear:both;
+    display:flex;
+    flex-wrap:wrap
+}
+#lists{
+    float:left;
+}
+table{
+    margin:auto
+}
+#tables{
+    float:right;
+}
+#hyperlinks {
+    float:left;
+    clear:both; 
+}
+#images{
+    float:right;
+}
+figure{
+    border:2px solid #ccc;
+}
+#lists, #images,#tables,#hyberlinks{
+    width:50%;
+    text-align:center;
+}
+ol,ul,dl{
+    text-align:left;
+}
+article {
+    min-width:30em; 
+}
+footer p {
+    display:inline-block;
+    width:50%;
+    box-sizing:border-box;
+    margin:0
+
+}
+footer p:first-child {float:left;
+    text-align:left;
+}
+footer p:last-child {text-align:right;
+    float:right;
+}
+
+footer p:nth-child(2) {
+display:block;
+text-align:center;
+clear:both;
+width:100%;
+order:3
+     }
+
